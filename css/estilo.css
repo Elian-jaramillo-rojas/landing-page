@@ -1,0 +1,32 @@
+@media screen and (min-width: 570px){
+    .borde{
+        background-color: rgb(255, 255, 255);
+        width: 570px;
+
+    }
+
+        
+     body{
+        background: url("../img/logistic.jpg");
+        width: 570px ;
+
+     }
+     p {
+         color: rgb(255, 255, 255);
+     }
+     .text{
+         color: rgb(255, 255, 255);
+     }
+     a{
+         color: rgba(155, 151, 151, 0.562);
+     }
+
+        
+    
+
+}
+    
+
+
+
+
