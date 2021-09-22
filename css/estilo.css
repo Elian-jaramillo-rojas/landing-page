@@ -1,28 +1,90 @@
-@media screen and (min-width: 570px){
-    .borde{
+@media screen and (max-width: 570px){
+.borde{
         background-color: rgb(255, 255, 255);
         width: 570px;
+        height: 15vh;
+        
 
+}
+
+        
+body{
+    background: url("../img/logistic.jpg");
+    width: 570px ;
+
+}
+p {
+    color: rgb(255, 255, 255);
     }
-
-        
-     body{
-        background: url("../img/logistic.jpg");
-        width: 570px ;
-
-     }
-     p {
-         color: rgb(255, 255, 255);
-     }
-     .text{
-         color: rgb(255, 255, 255);
-     }
-     a{
-         color: rgba(155, 151, 151, 0.562);
-     }
-
-        
+.text{
+    color: rgb(255, 255, 255);
+    }
+a{
+    color: rgba(155, 151, 151, 0.562);
+}
+.text1{
+    overflow: auto;
+    width:90vw;
+    height: 30vh;
+    color: rgb(255, 255, 255);
+    }
+    img{
+    width: 300px;
+    height: 200px;
     
+}
+.imagen1{
+    display: flex;
+    justify-content:center;
+}
+.text2{
+    overflow: auto;
+    width:98vw;
+    height: 35vh;
+    
+    z-index: 50;
+    background-color: rgb(255, 255, 255);
+}
+.text2 p {
+    color: rgba(29, 29, 121, 0.815);
+}
+
+.text3{
+    overflow: auto;
+    width:98vw;
+    height: 35vh;
+    color: rgb(255, 255, 255);
+}
+
+    /*border: 1px solid #bbb;
+    box-shadow: 5px 5px 10px #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .6s;
+    width:98vw;
+    height: 35vh;*/
+}
+
+.grid{
+    border: 1px solid #bbb;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,25rem);
+    grid-gap: 3rem;
+    display : flex;
+    justify-content: center;
+
+}
+.iso1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+.color{
+    color: rgb(255, 255, 255);
+}
 
 }
     
