@@ -157,12 +157,16 @@ input.edad{
 
     height: 3vh;
 }
+.ocupacion{
+    grid-column:1/3;
+   
+}
 
 
 
 input.ocupacion{
     
-
+    width: 100%;
     height: 7vh;
     grid-column: 1/2;
 }
@@ -177,6 +181,7 @@ input.botonLogin{
 .botonLogin{
 background-color:rgb(21, 106, 243);
 border:none;
+width: 100%;
 }
 .consultar{
 color: rgb(250, 250, 250);
